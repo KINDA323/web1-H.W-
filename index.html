@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>خريطة الأردن </title>
+    <style>
+        #map {
+            position: relative;
+            max-width: 1000px;
+            margin: auto;
+
+        }
+        .region {
+            position: absolute;
+            cursor: pointer;
+            color: black;
+            text-decoration: none;
+            background-color:none;
+            padding: 2px 5px;
+            border-radius: 3px;
+            text-align: center;
+        }
+        .region:hover {
+            background-color: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">خريطة الأردن </h1>
+    <div id="map" style="text-align: center;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Jordan-map.png/542px-Jordan-map.png" alt="خريطة الأردن" style="width: 60%;"usemap="#map">
+   
+        <map name="map">
+        <area shape="poly" href="Irbid(kinda).html" coords="121,141,128,150,135,148,143,145,140,138,149,142,149,132,147,124,144,115,141,107,135,107,132,101,123,98,115,93,106,100,101,104,93,105,89,110,90,117,89,124,89,130,86,138,86,148,87,163,88,170,94,171,93,162,93,151,102,148,113,145" >
+        <area shape="poly" href="Zarqa(kinda).html"coords="136,171,141,176,149,177,154,181,166,179,177,183,184,183,192,184,197,190,344,240,256,268,223,232,210,240,194,224,204,214,188,195,180,196,173,195,167,202,159,200,151,204,143,205,129,191,126,183,132,178">
+        <area shape="poly" href="Mafraq(kinda).html"coords="467,7,240,154,223,155,187,146,162,127,150,128,151,141,140,140,143,150,134,160,136,169,143,176,150,176,161,179,177,182,194,182,197,189,345,240,497,194,531,164,526,150,506,154,495,134,505,125">
+        <area shape="poly" href="Karak(kinda).html"coords="57,350,65,353,70,348,72,340,79,339,85,340,99,341,117,352,124,356,137,370,164,326,156,317,154,302,117,302,119,291,115,282,102,281,95,281,88,278,77,276,74,284,68,292,65,302,68,311,73,317,70,326,65,346,68,334">
+        <area shape="poly" href="Aqaba(kinda).html"coords="50,379,58,385,61,392,68,392,66,401,65,408,63,415,58,424,55,429,60,445,49,462,47,473,50,481,57,484,67,482,74,484,79,490,81,498,87,510,91,521,92,530,97,559,99,576,102,582,8,564,11,552,14,543,8,536,14,522,16,513,17,505,23,499,24,490,27,482,25,476,30,465,35,459,36,449,33,440,39,432,41,424,34,415,39,410,38,399,42,393,45,385">
+        <area shape="poly" href="Tafilah(kinda).html"coords="60,351,68,354,72,346,72,338,81,341,88,342,97,343,107,348,114,350,119,356,126,362,133,366,139,371,128,389,121,388,115,389,102,391,96,393,88,394,80,393,74,392,67,390,63,386,57,382,51,378,50,371,53,366,58,362">
+        <area shape="poly" href="Madaba(kinda).html"coords="81,242,91,240,93,232,100,230,107,228,116,228,117,235,116,243,114,252,121,259,122,267,116,281,104,278,96,281,89,276,75,276,77,255">
+        <area shape="poly" href="Ma-an(kinda).html"coords="156,304,283,304,378,406,335,432,319,478,226,495,197,543,142,590,100,583,92,522,90,509,86,501,84,494,79,487,70,483,64,483,58,482,52,479,50,474,50,467,54,458,59,448,59,439,59,429,61,422,64,415,68,410,67,403,68,397,78,391,91,395,98,393,104,394,113,390,121,388,129,390,161,324,157,317">
+        <area shape="poly" href="Ajloun(kinda).html"coords="119,142,109,146,103,150,97,147,94,152,92,159,92,165,95,170,101,175,105,170,115,167,117,157,127,151">
+        <area shape="poly" href="Jerash(kinda).html"coords="139,150,133,147,128,150,121,156,116,166,110,169,102,175,117,178,124,183,134,176,137,170,132,161,135,155">
+        <area shape="poly" href="Balqa(kinda).html"coords="87,172,95,172,102,173,103,179,117,178,124,183,128,191,123,196,118,198,112,205,100,212,97,217,105,220,102,226,97,231,93,238,82,241,86,233,85,223,84,215,85,209,83,193,86,184">
+        <area shape="poly" href="Amman(kinda).html"coords="129,191,125,198,117,200,115,205,98,213,105,220,105,229,116,226,118,238,115,249,121,257,124,265,117,283,118,290,122,302,282,304,256,268,222,234,213,240,193,224,202,214,187,198,179,199,172,195,167,201,160,202,155,203,146,205,139,202">
+
+   
+    </map>
+        <a href="Irbid(kinda).html" class="region" style="top: 125px; left: 315px;">إربد</a>
+        <a href="Zarqa(kinda).html" class="region" style="top: 245px; left: 450px;">الزرقاء</a>
+        <a href="Mafraq(kinda).html" class="region" style="top: 180px; left: 550px;">المفرق</a>
+        <a href="Karak(kinda).html" class="region" style="top: 345px; left: 300px;">الكرك</a>
+        <a href="Aqaba(kinda).html" class="region" style="top: 580px; left: 240px;">العقبة</a>
+        <a href="Tafilah(kinda).html" class="region" style="top: 400px; left: 270px;">الطفيلة</a>
+        <a href="Madaba(kinda).html" class="region" style="top: 275px; left: 290px;">مادبا</a>
+        <a href="Ma-an(kinda).html" class="region" style="top: 450px; left: 400px;">معان</a>
+        <a href="Ajloun(kinda).html" class="region" style="top: 165px; left: 290px;">عجلون</a>
+        <a href="Jerash(kinda).html" class="region" style="top: 180px; left: 315px;">جرش</a>
+        <a href="Balqa(kinda).html" class="region" style="top: 200px; left: 290px;">البلقاء</a>
+        <a href="Amman(kinda).html"  class="region" style="top: 270px; left: 370px;">عمان</a>
+
+
+     </div>
+</body>
+</html>
